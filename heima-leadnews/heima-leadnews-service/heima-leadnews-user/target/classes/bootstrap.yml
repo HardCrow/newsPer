@@ -1,0 +1,16 @@
+server:
+  port: 51801
+spring:
+  application:
+    name: leadnews-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.254.70.10:8848
+      config:
+        server-addr: 192.254.70.10:8848
+        file-extension: yml
+  redis:
+    host: 192.254.70.10
+    port: 6379
+    password: 123456
